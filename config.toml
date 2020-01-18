@@ -1,0 +1,29 @@
+languageCode = "en-us"
+title = "Paulo Lapa"
+themesDir = "themes"
+theme = "hugo-theme-learn"
+baseURL = "http://paulolapa.ml"
+[params]
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+  showVisitedLinks = false
+  # Disable search function. It will hide search bar
+  disableSearch = true
+
+[[menu.shortcuts]] 
+name = "<i class='far fa-envelope'></i> E-mail"
+identifier = "mail"
+url = "mailto:me@paulolapa.ml"
+weight = 1
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github"
+identifier = "ds"
+url = "https://github.com/plapa"
+weight = 2
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-linkedin'></i> Linkedin"
+identifier = "linkedin"
+url = "https://www.linkedin.com/in/paulolapa/"
+weight = 3
